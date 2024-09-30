@@ -1,5 +1,5 @@
 # Use a imagem oficial do Ruby como base
-FROM node:latest
+FROM node:22
 
 # Configure a pasta de trabalho dentro do contêiner
 WORKDIR /app
